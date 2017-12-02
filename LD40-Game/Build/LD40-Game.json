@@ -1,0 +1,11 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "LD40-Game.data.unityweb",
+"asmCodeUrl": "LD40-Game.asm.code.unityweb",
+"asmMemoryUrl": "LD40-Game.asm.memory.unityweb",
+"asmFrameworkUrl": "LD40-Game.asm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#828080"
+}
