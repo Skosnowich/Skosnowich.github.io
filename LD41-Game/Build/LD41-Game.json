@@ -1,6 +1,6 @@
 {
-"companyName": "DefaultCompany",
-"productName": "ld41-game",
+"companyName": "BWTG",
+"productName": "Space Drifter TD",
 "dataUrl": "LD41-Game.data.unityweb",
 "asmCodeUrl": "LD41-Game.asm.code.unityweb",
 "asmMemoryUrl": "LD41-Game.asm.memory.unityweb",
@@ -9,5 +9,5 @@
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
 "splashScreenStyle": "Dark",
-"backgroundColor": "#231F20"
+"backgroundColor": "#000000"
 }
