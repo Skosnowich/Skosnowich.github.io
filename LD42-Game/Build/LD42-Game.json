@@ -1,6 +1,6 @@
 {
 "companyName": "DefaultCompany",
-"productName": "ld42-game",
+"productName": "The Compactor",
 "dataUrl": "LD42-Game.data.unityweb",
 "wasmCodeUrl": "LD42-Game.wasm.code.unityweb",
 "wasmFrameworkUrl": "LD42-Game.wasm.framework.unityweb",
