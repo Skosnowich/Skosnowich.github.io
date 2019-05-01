@@ -12,14 +12,33 @@
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/LD44-Game.json", {onProgress: UnityProgress});
     </script>
   </head>
-  <body>
-    <div class="webgl-content">
-      <div id="unityContainer" style="width: 1024px; height: 576px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">Necrosis</div>
-      </div>
-    </div>
+  <body style="background-color: #4b0003;">
+	<div style="width: 1024px; margin-left:auto; margin-right:auto;">
+		<div class="webgl-content" style="position: relative; margin-top: 320px;">
+		  <div id="unityContainer" style="width: 1024px; height: 576px;"></div>
+		  <div class="footer">
+			<div class="webgl-logo"></div>
+			<div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+			<div class="title">Necrosis</div>
+		  </div>
+		</div>
+		<div>
+			<div style="float:left; width: 650px; margin-top: -300px;">
+				<img src="Tutorial.png" alt="Tutorial"/>
+			</div>
+			<div style="float:right; color: white; font-family: sans-serif; width:374px; margin-top: -300px;">
+				Controls:
+				<ul>
+					<li>W, S, A, D - scroll map</li>
+					<li>left mouse button - select infected cell</li>
+					<li>right mouse button - select target cell</li>
+					<li>mouse wheel - zoom</li>
+					<li>R - restart level</li>
+					<li>ESC - return to main menu</li>
+					<li>1, 2, 3, 4 - select virus</li>
+				</ul>
+			</div>
+		</div>
+	</div>
   </body>
 </html>
